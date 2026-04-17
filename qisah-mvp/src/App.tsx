@@ -11,6 +11,7 @@ import Profile from'./components/screens/ProfileScreen'
 import Home from'./components/screens/HomeScreen'
 import Scan from'./components/screens/ScanScreen'
 import PasteLink from'./components/screens/PasteLinkScreen'
+import VerifyText from'./components/screens/VerifyTextScreen'
 import Result from'./components/screens/ResultScreen'
 import Chain from'./components/screens/ChainScreen'
 import Scholar from'./components/screens/ScholarScreen'
@@ -36,6 +37,7 @@ export default function App(){
         <Route path="/home" element={<Home/>}/>
         <Route path="/scan" element={<Scan/>}/>
         <Route path="/paste-link" element={<PasteLink/>}/>
+        <Route path="/verify-text" element={<VerifyText/>}/>
         <Route path="/result/:grade" element={<Result/>}/>
         <Route path="/chain/:grade" element={<Chain/>}/>
         <Route path="/scholar/:id" element={<Scholar/>}/>
